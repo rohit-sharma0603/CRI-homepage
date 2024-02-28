@@ -1,0 +1,42 @@
+
+
+.details{
+    background-color: rgb(221, 38, 38);
+    color: white;
+    display: flex;
+    margin: 5px;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center
+    
+}
+
+.details img{
+    width: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding: 10px;
+    }
+    .details {
+        flex-direction: column;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .details {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .details img {
+        width: 15px;
+    }
+}
+
+

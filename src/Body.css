@@ -1,0 +1,64 @@
+.upper{
+    display:flex;
+  width: 100%;
+  flex-wrap: wrap;
+  
+}
+.left{
+    max-width:35%;
+    border: none;
+    width: 100%;
+}
+.right{
+    max-width:65%;
+    width: 100%;
+   
+
+}
+
+.trophyImage{
+    width: 100%;
+   height: auto;
+    
+}
+.employesImage{
+    border: none;
+    width: 100%;
+    height: auto;
+}
+.lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pumpImage{
+    width:80%;
+    max-width: 100%;
+}
+
+h5{
+   
+    margin-left: 20px;
+
+}
+.products{
+    text-align: center;
+}
+
+@media screen and (max-width: 786px) {
+  .left, .right {
+    max-width: 100%; 
+  }
+
+  .right {
+    margin-top: 0; 
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .pumpImage {
+    max-width: 100%; 
+
+  }
+}
